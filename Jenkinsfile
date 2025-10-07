@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/Bindas69/hello-manual.git'
+                git url: 'https://github.com/Bindas69/hello-manual.git', branch: 'main', credentialsId: 'github-pat'
             }
         }
 
@@ -24,6 +24,4 @@ pipeline {
             }
         }
     }
-
 }
-
