@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/tahabutt6ix9ine@gmail.com/hello-manual.git'
+                git 'https://github.com/Bindas69/hello-manual.git'
             }
         }
 
@@ -26,3 +26,4 @@ pipeline {
     }
 
 }
+
